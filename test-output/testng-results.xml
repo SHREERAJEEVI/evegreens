@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22847" started-at="2020-05-08T14:28:09Z" finished-at="2020-05-08T14:28:32Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="22847" started-at="2020-05-08T14:28:09Z" finished-at="2020-05-08T14:28:32Z">
+      <class name="seleniumframe.Shiva">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:seleniumframe.Shiva@21a06946]" name="launchBrowser" is-config="true" duration-ms="15773" started-at="2020-05-08T19:58:09Z" finished-at="2020-05-08T19:58:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifylogin(java.lang.String, java.lang.String)[pri:0, instance:seleniumframe.Shiva@21a06946]" name="verifylogin" duration-ms="7023" started-at="2020-05-08T19:58:25Z" finished-at="2020-05-08T19:58:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+      </class> <!-- seleniumframe.Shiva -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
