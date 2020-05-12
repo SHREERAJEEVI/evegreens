@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class Shiva {
 	WebDriver driver;
 	@BeforeMethod
-	public void launchBrowser() {
+	public void launchBrowser()579 {
 	System.setProperty("webdriver.chrome.driver", "D:\\shree rajeevi documents\\proj\\chromedriver.exe");
 	driver = new ChromeDriver();
 	driver.get("https://opensource-demo.orangehrmlive.com/");
